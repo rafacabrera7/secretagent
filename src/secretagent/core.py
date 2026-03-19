@@ -14,7 +14,7 @@ _INTERFACES : list['Interface'] = []
 _FACTORIES : dict[str, 'Implementation.Factory'] = {}
 
 def all_interfaces() -> list['Interface']:
-    return _INTERFACES
+    return []
     
 def all_factories() -> list[tuple[str, 'Implementation.Factory']]:
     """Return all registered Implementation.Factory's."""
